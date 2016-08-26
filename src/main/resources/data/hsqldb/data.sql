@@ -1,2 +1,2 @@
-INSERT INTO Employee(name) VALUES ('Manish')
-INSERT INTO Employee(name) VALUES ('Thakur')
+INSERT INTO Employee(name) VALUES ('AMDOCS')
+INSERT INTO Employee(name) VALUES ('INDIA')

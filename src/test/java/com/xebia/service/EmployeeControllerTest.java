@@ -44,14 +44,14 @@ public class EmployeeControllerTest {
         int status = result.getResponse().getStatus();
 
         Assert.assertEquals(200, status);
-        Assert.assertEquals("[{\"id\":null,\"name\":\"Manish\"},{\"id\":null,\"name\":\"Thakur\"}]", content);
+        Assert.assertEquals("[{\"id\":null,\"name\":\"AMDOCS\"},{\"id\":null,\"name\":\"INDIA\"}]", content);
 
     }
 
     private List<Employee> getStubbedEmployees() {
         List<Employee> stubbedEmployees = new ArrayList<Employee>();
-        stubbedEmployees.add(new Employee("Manish"));
-        stubbedEmployees.add(new Employee("Thakur"));
+        stubbedEmployees.add(new Employee("AMDOCS"));
+        stubbedEmployees.add(new Employee("INDIA"));
         return stubbedEmployees;
     }
 }
